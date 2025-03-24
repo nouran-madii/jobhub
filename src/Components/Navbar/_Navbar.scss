@@ -1,9 +1,7 @@
 @import '../../Scss/colors';
-@import "bootstrap/scss/bootstrap";
 
 nav {
-    background-color: $mainBg !important;
-    font-weight: 700;
+    background-color: $mainBg;
 
     a{
         text-decoration: none;
@@ -13,23 +11,15 @@ nav {
         color: $mainTextColor;
     }
 
-    .head{
-        font:{
-            family: "MuseoModerno", sans-serif;
-            weight: 200;
-        }
-        text:{
-            decoration: none;
-            align: center;
+    .heading{
+        h1,p{
+            font-family: "MuseoModerno", sans-serif;
+            color: $mainTextColor;
         }
         h1{
-            color: $mainTextColor;
             font-size: 70px;
-            border-bottom: 1px solid $mainTextColor;
-            padding-bottom: 10px;
         }
         p{
-            color: $mainTextColor;
             font-size: 20px;
         }
     }
@@ -38,30 +28,18 @@ nav {
         .add-job{
             width: 75px;
             height: 25px;
-            font:{
-                weight:400;
-                size:12px
-            } ;
-            text-align: center;
-            border-radius: 5px;
+            font-size:12px;
             background-color: $secondBg;
-            color: #FFFFFF;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-            -ms-border-radius: 5px;
-            -o-border-radius: 5px;
-}
-}
+        }
+    }
 
 // responsive navbar
 @media (max-width: 992px) {
     
-    .head {
-        
+    .heading {
         h1{
             font-size: 45px;
         }
-
         p{
             font-size: 15px;
         }
