@@ -16,6 +16,7 @@ function ResponsiveMenu() {
     <button type="button" className="btn-close btn-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div className="offcanvas-body d-flex flex-column fw-normal gap-3">
+    <Link>Home</Link>
     <Link>For Company</Link>
     <Link>About Us</Link>
     <Link>Login</Link>
