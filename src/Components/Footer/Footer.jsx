@@ -9,7 +9,7 @@ function Footer() {
 
             {/* logo */}
             <div className='d-none d-lg-block'>
-                <h3 className='fw-light'>Job Hub</h3>
+                <Link to=''><h3 className='fw-light'>Job Hub</h3></Link>
             </div>
 
             {/* links */}

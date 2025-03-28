@@ -1,0 +1,30 @@
+@import '../../../Scss/colors';
+
+.custom-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.custom-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #635c4f;
+    border-radius: 50%;
+    margin: 15px 5px 0;
+    transition: all 0.3s ease-in-out;
+}
+.custom-dots li.slick-active .custom-dot {
+    width: 20px;
+    border-radius: 10px;
+}
+
+.card-title{
+    font-family: "Manuale";
+    color: $mainTextColor;
+}
+
+.card-body{
+    font-family: "Lexend Deca";
+    color: $mainTextColor;
+}

@@ -1,8 +1,47 @@
-import React from 'react'
+import React from 'react';
+import './Home.scss';
+import CategorySlider from './CategorySlider/CategorySlider';
+import JobFeatured from './JobFeatured/JobFeatured'
 
 function Home() {
     return <>
-    <p className='container-fluid'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quasi obcaecati veniam, harum animi consequatur voluptates sed sapiente architecto quas at similique cum eum fugiat quos consectetur vitae assumenda quaerat minima odit laudantium. Ut maiores eligendi reprehenderit optio quae vitae eius vel error nesciunt earum commodi tenetur totam ea voluptas numquam voluptatum saepe veniam consectetur ab minima, doloribus ratione. Nobis, aliquid doloremque commodi blanditiis facilis maxime rem aspernatur odit et deserunt alias minima laudantium incidunt impedit sequi veniam magnam ratione neque accusantium perspiciatis! Nemo possimus corrupti ipsa voluptatem, asperiores beatae aperiam est ipsum, eligendi officia sunt culpa ratione numquam minima nisi perferendis ut quia provident earum. Asperiores cupiditate voluptatibus nostrum ullam vero ducimus consequatur molestiae! Impedit delectus quibusdam ex esse! Vel voluptas accusamus dicta accusantium, nemo voluptatibus odio adipisci harum. Quod vitae natus sint doloremque voluptatem, sunt consectetur possimus a qui, ex ipsam placeat rerum, quos non minima nemo reprehenderit.</p>
+    <div>
+        {/* background section */}
+        <section className='bg'>
+            <div style={{ 
+                backgroundImage: "url('/imgs/bgImg.jpg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                height: "400px" }}>
+            </div>
+            <p className='text-center py-5 fs-6'>Start your career with confidence we’re here to help fresh graduates succeed</p>
+        </section>
+
+        {/* search by category section */}
+        <section className='pb-4'>
+            <div className='text-center pb-2'>
+                <h2>Search By Category</h2>
+                <p className='p pb-5'>Search Your Career Opportunity  with Our Categories</p>
+            </div>
+
+            <div className='category'>
+                <CategorySlider/>
+            </div>
+        </section>
+
+        {/* featured job section */}
+        <section>
+            <div className='text-center py-4'>
+                <h2>Featured Job Offers</h2>
+                <p className='p'>Search Your Career Opportunity  Through 12,800 Jobs</p>
+            </div>
+
+            <div className='cards'>
+                <JobFeatured />
+            </div>
+        </section>
+    </div>
     </>
 }
 

@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './_Navbar.scss';
+import Dropdown from './Dropdown/Dropdown';
+import Menu from './Menu/Menu';
+import ResponsiveMenu from './ResponsiveMenu/ResponsiveMenu';
 
 function Navbar() {
     return <>
-    <nav className='fw-bold position-sticky top-0'>
+    <nav className='fw-bold position-sticky top-0 z-1'>
             <div className="container d-flex justify-content-between align-items-center">
 
                     {/* left links */}
@@ -27,19 +30,14 @@ function Navbar() {
                         <Link>
                             <i className="fa-solid fa-magnifying-glass"></i>
                         </Link>
-                        
-                        <Link to='add_job' className="add-job align-content-center fw-semibold text-center rounded text-white">Add Job</Link>
+                        <Dropdown/>
                         <Link to='login'>Login</Link>
-                        <Link className="menu-bar">
-                            <i className="fa-solid fa-bars"></i>
-                        </Link>
+                        <Menu/>
                     </div>
 
                     {/* responsive menu */}
-                    <div className="menu-bar-responsive d-block d-lg-none">
-                        <Link>
-                            <i className="fa-solid fa-bars"></i>
-                        </Link>
+                    <div className=" d-block d-lg-none">
+                        <ResponsiveMenu/>
                     </div>
                 
             </div>
