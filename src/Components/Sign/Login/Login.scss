@@ -1,4 +1,4 @@
-@import '../../Scss/colors' ;
+@import '../../../Scss/colors' ;
 
 .login{
 
@@ -15,8 +15,11 @@
             background-color: $button;
         }
 
-        .forget{
+        .forget, .sign{
             color: $mainTextColor;
+        }
+        .sign{
+            font-size: 12px;
         }
 
         .line{

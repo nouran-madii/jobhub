@@ -18,11 +18,11 @@ function Dropdown() {
             <ul className={`dropdown-menu ${isOpen ? 'd-flex' : ''}`}>
                 {/* closed btn*/}
                 <li className="dropdown-item">
-                    <i 
-                        className="fa-solid fa-xmark" 
+                    <button 
+                        className="fa-solid fa-xmark border-0 btn" 
                         style={{ cursor: "pointer" }} 
                         onClick={() => setIsOpen(false)}
-                    ></i>
+                    ></button>
                 </li>
                 
                 <div>

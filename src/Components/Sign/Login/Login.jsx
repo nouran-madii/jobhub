@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Login.scss'
-import Email from './Email/Email'
-import Password from './Password/Password'
 import SignInBtn from './SignInBtn/SignInBtn'
-import Header from './Header/Header'
+import Header from '../Header/Header'
+import Email from '../Email/Email'
+import Password from '../Password/Password'
 import SignInWith from './SignInWith/SignInWith'
 
 function Login() {
@@ -31,7 +31,7 @@ function Login() {
                 <SignInWith/>
                 <div className='d-flex justify-content-center gap-1'>
                     <p className='text-black'>New To JOB HUB?</p>
-                    <Link to='/signUp'>Sign Up</Link>
+                    <Link to='/signUp' className='sign text-decoration-none'>Sign Up</Link>
                 </div>
             </div>
         </div>

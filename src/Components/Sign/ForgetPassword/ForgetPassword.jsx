@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../Login/Login.scss';
-import Header from '../Login/Header/Header';
+import Header from '../Header/Header';
 
 function ForgetPassword() {
     // State 3shan net7km fe display el Form

@@ -16,7 +16,7 @@ function Menu() {
             <ul className={`dropdown-menu custom-dropdown ${isOpen ? 'show text-center' : ''} w-25`}>
                 {/* closing btn*/}
                 <li className="dropdown-item close-btn text-start">
-                    <i className="fa-solid fa-xmark" onClick={() => setIsOpen(false)}></i>
+                    <button className="fa-solid fa-xmark border-0 btn" onClick={() => setIsOpen(false)}></button>
                 </li>
 
                 {/* header */}
