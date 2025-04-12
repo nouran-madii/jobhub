@@ -9,7 +9,7 @@ function Dropdown() {
             {/* opening dropdown button*/}
             <button 
                 className="add-job border-0 align-content-center fw-semibold text-center rounded text-white" 
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={() => setIsOpen(!isOpen)} 
             >
                 Add Job
             </button>

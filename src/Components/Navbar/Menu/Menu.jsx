@@ -8,8 +8,8 @@ function Menu() {
     return (
         <div className="dropdown">
             {/* opening btn*/}
-            <button className="menu-btn border-0" onClick={() => setIsOpen(!isOpen)}>
-                <i className="fa-solid fa-bars"></i>
+            <button className="menu-btn border-0 fa-solid fa-bars" onClick={() => setIsOpen(!isOpen)}>
+                {/* <i className=""></i> */}
             </button>
 
             {/* list  */}

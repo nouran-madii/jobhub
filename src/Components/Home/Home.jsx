@@ -32,7 +32,7 @@ function Home() {
 
         {/* featured job section */}
         <section>
-            <div className='text-center py-4'>
+            <div className='text-center py-4 pt-5'>
                 <h2>Featured Job Offers</h2>
                 <p className='p'>Search Your Career Opportunity  Through 12,800 Jobs</p>
             </div>
