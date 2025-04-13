@@ -43,6 +43,43 @@
             margin-top: 20px;
             width: 300px;
             height: 420px;
+
+            p, .sign, span, .forget{
+                font-size: 11px !important;
+            }
+
+            h4{
+                font-size:large;
+            }
+
+            h5{
+                font-size: small !important;
+            }
+
+            img{
+                width: 50% !important;
+            }
+
+            .imgs{
+                width: 50%;
+                gap: 1rem !important;
+                margin: 8px auto !important;
+            }
+
+            div {
+                margin-bottom: 0.4rem !important;
+                label{
+                    font-size: smaller;
+                }
+                input{
+                    font-size: smaller;
+                }
+            }
+
+            button{
+                font-size: smaller;
+                margin-top: 10px;
+            }
     }
     }
 }
@@ -53,6 +90,44 @@
         .form{
             width: 370px;
             height: 400px;
+
+            p, .sign, span, .forget{
+                font-size: 13px !important;
+            }
+
+            h4{
+                font-size:large;
+            }
+
+            h5{
+                font-size: medium !important;
+            }
+
+            img{
+                width: 40% !important;
+            }
+
+            .imgs{
+                width: 50%;
+                gap: 1rem !important;
+                margin: 5px auto 3px !important;
+            }
+
+            
+            div {
+                margin-bottom: 0.2rem !important;
+                label{
+                    font-size: smaller;
+                }
+                input{
+                    font-size: smaller;
+                }
+            }
+
+            button{
+                font-size: smaller;
+                margin-top: 6px;
+            }
     }
     }
 }
@@ -64,6 +139,45 @@
         .form{
             width: 420px;
             height: 440px;
+
+            p, .sign, span, .forget{
+                font-size: 13px !important;
+            }
+
+            h4{
+                font-size:large;
+            }
+
+            h5{
+                font-size: large !important;
+            }
+
+            img{
+                width: 40% !important;
+            }
+
+            .imgs{
+                width: 50%;
+                gap: 1rem !important;
+                margin: 10px auto !important;
+            }
+
+            div {
+                margin-bottom: 0.5rem !important;
+                label{
+                    font-size: medium;
+                }
+                input{
+                    font-size: medium;
+                }
+            }
+
+            button{
+                font-size: medium;
+                margin-top: 12px;
+            }
+
+            
         }
     }
 }

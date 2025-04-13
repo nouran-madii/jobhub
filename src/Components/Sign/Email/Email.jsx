@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Login/Login.scss'
 
 function Email() {
     return <>
