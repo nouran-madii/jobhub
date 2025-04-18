@@ -1,0 +1,11 @@
+@import '../../../../Scss/colors';
+
+input{
+    accent-color: $button;
+    cursor: pointer;
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}

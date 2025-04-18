@@ -28,7 +28,7 @@ function Navbar() {
                     {/* right links */}
                     <div className="links-right d-none d-lg-flex column-gap-4">
                         <Link>
-                            <i className="fa-solid fa-magnifying-glass"></i>
+                            <button className="btn fa-solid fa-magnifying-glass"></button>
                         </Link>
                         <Dropdown/>
                         <Link to='login'>Login</Link>

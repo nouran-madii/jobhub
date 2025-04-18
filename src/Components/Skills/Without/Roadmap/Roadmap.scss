@@ -1,0 +1,21 @@
+.imgs{
+    width: 150px;
+    height: 100px;
+
+    img{
+    
+    filter: brightness(0.7);
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-filter: brightness(0.7);
+    }
+
+    .p{
+        font-size: 1.1rem;
+    }
+}
+
